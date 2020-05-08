@@ -1,0 +1,22 @@
+{
+  "name": "bitcoin-predict-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch --runInBand",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "db": "C:/Users/ASUS/mongodb/bin/mongod.exe --dbpath=C:/Users/ASUS/mongodb-data",
+    "playground": "nodemon ./src/playground/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.12"
+  }
+}
