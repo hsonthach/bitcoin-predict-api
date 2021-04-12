@@ -6,4 +6,3 @@ Features :
 2. Calculate average profit when follow those days 
 
 
-Power by CoinDesk 
